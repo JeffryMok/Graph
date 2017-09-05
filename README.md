@@ -1,5 +1,3 @@
-terdapat masalah dalam penyelesaian tugas no. 2, sehingga tidak dapat menyertakan gambar hasil no. 2
-
 # Graph
 Application of libraries networkx and matplotlib
 
