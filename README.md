@@ -1,7 +1,8 @@
-Grafik dengan kode yang lebih sederhana
+Grafik dengan kode yang lebih sederhana dibandingkan graph.py
 
 # Graph (Simplified)
 Application of libraries : networkx and matplotlib
+Item : grafik.py, grafik.png
 
 Catatan : 
 Pencipta : Jeffry
