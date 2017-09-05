@@ -13,7 +13,7 @@ import networkx as nx
 G=nx.Graph()
 
 
-G.add_nodes_from(["a","b","c","d","e","f","g","h"])
+G.add_nodes_from(['a','b','c','d','e','f','g','h'])
 
 
 G.add_edges_from([("a","b"),("a","c"),("a","d"),("a","f"),("a","g"),("a","h")],color='b')
