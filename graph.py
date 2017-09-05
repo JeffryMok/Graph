@@ -1,12 +1,12 @@
 try:
-  
-    import matplotlib.pyplot as plt
+
+  import matplotlib.pyplot as plt
 
 except:
 
-    raise
-
+  raise 
 import networkx as nx
+
 
 
 
@@ -34,9 +34,11 @@ G.add_edge("c","f",color='g')
 
 G.add_edge("c","h",color='g')
 
-nx.draw(G)
+nx.draw(G, edge_color='b')
 
 
 plt.savefig("graph.png")
 
 plt.show()
+
+
