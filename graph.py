@@ -1,15 +1,17 @@
 try:
-  
-    import matplotlib.pyplot as plt
+
+  import matplotlib.pyplot as plt
 
 except:
 
-    raise 
+  raise 
 import networkx as nx
 
 
 
+
 G=nx.Graph()
+
 
 G.add_nodes_from(["a","b","c","d","e","f","g","h"])
 
@@ -31,8 +33,12 @@ G.add_edge("a","e",color='g')
 G.add_edge("c","f",color='g')
 
 G.add_edge("c","h",color='g')
-nx.draw(G)
+
+nx.draw(G, edge_color='b')
 
 
 plt.savefig("graph.png")
+
 plt.show()
+
+
